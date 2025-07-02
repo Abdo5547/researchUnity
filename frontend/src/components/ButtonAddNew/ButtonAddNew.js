@@ -1,0 +1,43 @@
+import React from "react";
+import Drawer from "@mui/joy/Drawer";
+
+const ButtonAddNew = () => {
+  return (
+    <Drawer anchor="right" invertedColors>
+      <div className="flex flex-col">
+        <ul className="flex flex-col gap4">
+          <li>
+            <a href="" style={{ textDecoration: "none", color: "black" }}>
+              <i className="material-icons">person</i>profil
+            </a>
+            {}
+          </li>
+          <li>
+            <a href="" style={{ textDecoration: "none", color: "black" }}>
+              <i className="material-icons">book</i>your Saved List
+            </a>
+          </li>
+          <hr />
+          <li>
+            <a href="" style={{ textDecoration: "none", color: "black" }}>
+              <i className="material-icons">contact_support</i>Help centre
+            </a>
+          </li>
+          <li>
+            <a href="" style={{ textDecoration: "none", color: "black" }}>
+              <i className="material-icons">manage_accounts</i>Settings
+            </a>
+          </li>
+          <hr />
+          <li>
+            <a href="" style={{ textDecoration: "none", color: "black" }}>
+              <i className="material-icons">logout</i>Log Out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </Drawer>
+  );
+};
+
+export default ButtonAddNew;

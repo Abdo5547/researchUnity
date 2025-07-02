@@ -1,0 +1,29 @@
+/* Home.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  margin-top: 25px;
+
+}
+
+/* Add these styles for SearchBar component */
+.search-bar-container {
+  position: fixed;
+  top: 11;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.search-bar-box {
+  margin: 0 auto;
+  background-color: white;
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}

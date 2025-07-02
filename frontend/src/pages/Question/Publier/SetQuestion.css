@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #9a8484;
+}
+
+.containerr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+
+
+
+
+h3{
+    margin-top: -5px;
+}
+.publication-card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 9px;
+    box-shadow: 0 2px 4px rgba(255, 254, 254, 0.1);
+    width: calc(50% - 14px);
+}
+
+.publication-card h2 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+.authors {
+    color: #ff2525;
+    font-style: italic;
+    font-size: 16px;
+}
+
+@media (max-width: 800px) {
+    
+    .publication-card {
+        width: auto;
+    }
+}
+
+

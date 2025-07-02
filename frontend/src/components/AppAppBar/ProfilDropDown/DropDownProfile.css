@@ -1,0 +1,32 @@
+.DropDownProfile {
+  position: absolute;
+  top: 3.5rem;
+  right: 7.8rem;
+  width: 200px;
+  padding: auto;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(219, 209, 218);
+  color: black;
+}
+.dropDownProfile::before {
+  content: "";
+  position: absolute;
+  top: -0.7rem;
+  right: 2rem;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: rgb(250, 247, 247);
+  color: rgb(254, 0, 0);
+}
+li {
+  list-style: none;
+}
+i {
+  padding-right: 15px;
+  margin-bottom: -17px;
+}
+ul {
+  padding-left: 10px;
+}
